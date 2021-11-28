@@ -176,7 +176,7 @@ nav ul li {
 }
 
 .project-pic {
-  width: 65%;
+  width: 95%;
   height: 60%;
 }
 
@@ -194,6 +194,8 @@ nav ul li {
 .project-container {
   text-align: center;
   width: 21.875rem;
+  min-height: 23rem;
+  max-height: 30rem;
   padding: 1rem;
 }
 
@@ -207,6 +209,11 @@ nav ul li {
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+}
+
+.project-techologies {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 /* Projects section ends */
