@@ -4,7 +4,7 @@ A portfolio website
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Vanilla JavaSCript
+**Client:** HTML, CSS, JavaScript
 
 ## Tools Used
 
