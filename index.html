@@ -39,10 +39,10 @@
         <li><a href="#projects" class="nav-link">Proyectos</a></li>
         <li><a href="#contact" class="nav-link">Contacto</a></li>
       </ul>
-      <button class="burger-menu" id="burger-menu">
+      <div class="burger-menu" id="burger-menu">
         <ion-icon class="bars" name="menu-outline"></ion-icon>
         <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
-      </button>
+      </div>
     </nav>
     
     <!-- Hero Section -->
@@ -172,6 +172,14 @@
           />
           <img
             src="assets/icons/icons8-mysql.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="sixth-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-ionic.svg"
             alt=""
             loading="lazy"
             class="icon icon-card"
@@ -362,7 +370,49 @@
           <p></p>
           <p class="project-techologies">HTML, CSS, Vue.js, Vuetify, Go,
             Dgraph.</p>
-        </div>     
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/al-quadrado-pizza.jpg"
+            alt="al-quadrado-pizzas"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Al Quadrado Pizza</h3>
+          <p class="project-details">
+            Aplicación móvil para hacer pedidos.
+          </p>
+          <p class="project-techologies">Ionic, HTML, CSS, Angular.</p>
+        </div>         
+      </div>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/al-quadrado-partner.jpg"
+            alt="al-quadrado-partner"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Al Quadrado Partner</h3>
+          <p class="project-details">
+            Aplicación móvil para gestión de órdenes de compra.
+          </p>
+          <p class="project-techologies">Ionic, HTML, CSS, Angular.</p>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/al-quadrado-back-office.jpg"
+            alt="al-quadrado-back-office"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Al Quadrado Back Office</h3>
+          <p class="project-details">
+            Aplicación web administrativa.
+          </p>
+          <p class="project-techologies">HTML, CSS, Bootstrap, Angular.</p>
+        </div>
+      </div>
       </div>
     </section>
 
@@ -420,20 +470,22 @@
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
       <a href="https://www.youtube.com/channel/UCPoQoVpMwoivTyQzfCpzQVw" target="_blank"
-        ><img
+      rel="noopener"><img
           src="assets/icons/icons8-youtube-logo.gif"
           alt="Twitter"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="https://www.linkedin.com/in/lindsay-rodr%C3%ADguez-93197575/" target="_blank"
+      <a href="https://www.linkedin.com/in/lindsay-rodr%C3%ADguez-93197575/" 
+        rel="noopener" target="_blank"
         ><img
           src="assets/icons/icons8-linkedin-circled.gif"
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="https://github.com/Lindsay201291" target="_blank"
+      <a href="https://github.com/Lindsay201291"
+      rel="noopener" target="_blank"
         ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
       /></a>
     </div>
