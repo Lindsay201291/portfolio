@@ -177,8 +177,8 @@ nav ul li {
 
 .project-pic {
   width: 95%;
-  height: 60%;
-  max-height: 200px;
+  height: auto;
+  max-height: 342px;
 }
 
 .projects-container {
