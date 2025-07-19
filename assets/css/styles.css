@@ -178,7 +178,7 @@ nav ul li {
 .project-pic {
   width: 95%;
   height: auto;
-  max-height: 342px;
+  max-height: 515px;
 }
 
 .projects-container {
@@ -196,7 +196,7 @@ nav ul li {
   text-align: center;
   width: 21.875rem;
   min-height: 23rem;
-  max-height: 30rem;
+  max-height: auto;
   padding: 1rem;
 }
 
